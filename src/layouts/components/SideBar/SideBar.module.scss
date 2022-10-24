@@ -1,0 +1,25 @@
+.wrapper{
+    width:var(--default-layout-sidebar-width);
+    padding: 20px 0px 26px 8px;
+    margin-left:-16px;
+
+    // position: fixed;
+    // left: 0;
+    // top: 0;
+    // bottom: 0;
+    // right: 100px;
+}
+.sidebar-login{
+    padding: 20px 8px 24px;
+    border-top: 1px solid #f1f1f2;
+}
+
+.sidebar-text{
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 16px;
+    line-height: 22px;
+}
+.sidebar-login-btn{
+    width: 100%;
+    margin-top: 20px;
+}

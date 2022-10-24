@@ -1,0 +1,121 @@
+.wrapper{
+    position: fixed;
+    inset: 0;
+    z-index: 1001;
+    display: flex;
+}
+
+.wrapper.closing .overlay{
+  animation: fade-out 0.5s forwards;
+}
+
+.wrapper.closing .container{
+  animation: fade-out 0.5s forwards, grow-down 0.5s forwards;
+}
+
+.overlay{
+  background: rgb(0 0 0 / 50%);
+  position: fixed;
+  inset: 0;
+  animation: fade-in 0.5s;
+
+}
+
+.container{
+  background-color:rgba(255,255,255);
+  position:relative;
+  margin: auto;
+  max-height: var(--max-height-modal);
+  height: var(--height-modal);
+  overflow: hidden;
+  border-radius: 8px;
+  animation: fade-in 0.5s, grow-up 0.5s;
+}
+
+
+.close-wrapper{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width:40px;
+  height:40px;
+  background-color: rgba(22, 24, 35, 0.03);
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.close-icon{
+  font-size: 25px;
+}
+
+
+@keyframes fade-in{
+  from{
+    opacity: 0
+  }
+
+  to{
+    opacity: 1
+  }
+}
+
+@keyframes fade-out{
+  from{
+    opacity: 1
+  }
+
+  to{
+    opacity: 0
+  }
+}
+
+@keyframes grow-up{
+  from{
+    transform: scale(0.1)
+  }
+
+  to{
+    transform: scale(1)
+  }
+}
+
+@keyframes grow-down{
+  from{
+    transform: scale(1)
+  }
+
+  to{
+    transform: scale(0.1)
+  }
+}
+
+//----------------HEADER MODAL -------------------------
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-btn-box{
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  cursor: pointer;
+}
+
+.header-btn{
+  width: 30px;
+  height: 30px;
+  margin-top: 9px;
+}
+
+.header-modal-title{
+  font-size: 32px;
+}
+

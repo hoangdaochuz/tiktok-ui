@@ -1,0 +1,144 @@
+.wrapper{
+    margin: 20px 0px 20px 92px;
+    border-bottom: 1px solid #ccc;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-container{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+
+}
+.avatar-box{
+    width: 56px;
+    height: 56px;
+}
+
+.avatar-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-wrapper{
+    padding-left: 12px;
+}
+
+.account-info{
+    display: flex;
+    gap: 0 3px;
+}
+.account-info:hover{
+    cursor: pointer;
+
+}
+
+.account-info:hover .nickname{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.first_last_name{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 2px;
+}
+
+
+
+
+// .first_last_name:hover.nickname{
+//     text-decoration: underline;
+// }
+
+
+
+.music-background-box{
+    padding-left: calc(56px + 12px);
+}
+.music-title{
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.music-icon{
+    margin-right: 5px;
+    font-size: 16px;
+    color: rgba(22,24,35,1);
+}
+
+.music-background-link{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+
+}   
+
+.music-background-link:hover{
+    text-decoration:underline;
+}
+
+.video-container{
+    padding-left: calc(56px + 12px);
+    padding-bottom: 10px;
+    display: flex;
+
+}
+.video-item{
+    border-radius: 10px;
+    
+    // box-shadow: 0 0 3px 3px #ccc;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.check-icon{
+    color: #20D5EC;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.video-react-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.react-container{
+    
+}
+.icon-react-box{
+    
+    width: 48px;
+    height: 48px;
+    background-color: rgba(22, 24, 35, .06);
+    margin-bottom: 6px;
+    margin-top: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+.icon-react{
+    width: 24px;
+    height: 24px;
+
+}
+.quantity-react-box{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.quantity-react{
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(22, 24, 35, .75);
+    font-weight: 700;
+}
