@@ -1,9 +1,6 @@
 import classNames from "classnames/bind";
 import styles from './ModalLoginContent.module.scss'
 import { useState } from "react";
-import Modal from '~/components/Modal/Modal'
-import { AppleIcon, CloseIcon, FacebookIcon, GoogleIcon, InstagramIcon, KakaoTalkIcon,  LineIcon,  Profile, QRcodeIcon,  TweeterIcon} from '~/components/Icon';
-import Header from "~/components/Popper/Menu/Header";
 import LoginItem from './LoginItem'
 import HeaderModal from "../HeaderModal";
 

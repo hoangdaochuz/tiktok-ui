@@ -11,7 +11,7 @@ function ListVideo() {
     },[])
     console.log(listVideo)
     return ( 
-        listVideo.map((video, index) => {
+          listVideo.map((video, index) => {
             console.log(video.user.nickname)
             return (
                 <VideoItem 

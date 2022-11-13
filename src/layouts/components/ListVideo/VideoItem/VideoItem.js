@@ -122,7 +122,7 @@ function VideoItem({srcImg,nickname,first_name, last_name, desc, srcVid, music,t
             <div className={cx('music-background-box')}>
                 <h4 className={cx('music-title')}>
                     <FontAwesomeIcon className={cx('music-icon')} icon={faMusic} />
-                    <a className={cx('music-background-link')} href="#">nhạc nền - {music}</a>
+                    <a className={cx('music-background-link')} href="https://open.spotify.com/">nhạc nền - {music}</a>
                 </h4>
             </div>
 

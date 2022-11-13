@@ -13,13 +13,12 @@ import Button from '~/components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsisVertical, faKeyboard, faSignOut } from '@fortawesome/free-solid-svg-icons';
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
-import { AppleIcon, CloseIcon, FacebookIcon, GetCoin, GoogleIcon, InboxIcon, InstagramIcon, KakaoTalkIcon, Language, LineIcon, MessageIcon, Profile, QRcodeIcon, Setting, TweeterIcon, UploadIcon, UserGroupIcon } from '~/components/Icon';
+import { AppleIcon,FacebookIcon, GetCoin, GoogleIcon, InboxIcon, InstagramIcon, KakaoTalkIcon, Language, LineIcon, MessageIcon, Profile, QRcodeIcon, Setting, TweeterIcon, UploadIcon, UserGroupIcon } from '~/components/Icon';
 import Image from '~/components/Image';
 import Search from '../Search'
 import config from '~/config'
 import Modal from '~/components/Modal'
 import ModalLoginContent from '~/components/Modal/ModalLoginContent';
-import LoginAccount from '~/components/LoginAccount';
 
 const cx = classNames.bind(styles)
 

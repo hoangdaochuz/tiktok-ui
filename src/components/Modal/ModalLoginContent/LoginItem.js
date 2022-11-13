@@ -11,7 +11,7 @@ function LoginItem({item, onClick}) {
         return (
             <div className={cx('login-by-qr-wrapper')}>
                 <div className={cx('qrImageBox')}>
-                    <img className={cx('qrImage')} srcSet={item.qrImage}/>
+                    <img className={cx('qrImage')} srcSet={item.qrImage} alt=""/>
                     <div className={cx('qr-description')}>
                         <ol className={cx('qr-desc-list-step')}>
                             <li className={cx('qr-desc-step')}>Open the TikTok app on your mobile device</li>
@@ -26,7 +26,7 @@ function LoginItem({item, onClick}) {
                     </div>
                 </div>
                 <div className={cx('gif-box')}>
-                    <img className={cx('gif-item')} srcSet={item.gif}/>
+                    <img className={cx('gif-item')} srcSet={item.gif} alt=""/>
                 </div>
             </div>
         )
@@ -38,7 +38,7 @@ function LoginItem({item, onClick}) {
             <div className={cx('login-by-username-wrapper')}>
                 <div className={cx('login-label-wrapper')}>
                     <strong>Phone</strong>
-                    <a>Log in with email or username</a>
+                    <a href="https://www.facebook.com/" >Log in with email or username</a>
                 </div>
                 <div className={cx('login-form-wrapper')}>
                     <input className={cx('login-input')} placeholder="Phone number"/>

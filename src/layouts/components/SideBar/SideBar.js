@@ -6,7 +6,6 @@ import config from '~/config'
 import { HomeIcon,HomeActiveIcon,UserGroupIcon,UserGroupActiveIcon,LiveIcon,LiveActiveIcon } from '~/components/Icon'
 import { AppleIcon,FacebookIcon,GoogleIcon,InstagramIcon, KakaoTalkIcon,LineIcon, QRcodeIcon, TweeterIcon} from '~/components/Icon';
 import SuggestAccount from '~/components/SuggestAccount'
-import FollowingAccount from '~/components/SuggestAccount/FollowingAccount'
 import Button from '~/components/Button'
 import { useState } from 'react'
 import Modal from '~/components/Modal'

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {publicRouters} from '~/routers'
 import DefaultLayout from '~/layouts'
 import {Fragment} from 'react'
-import Test from './components/TestAPICall'
+
 function App() {
   //Test(7)
   return (
