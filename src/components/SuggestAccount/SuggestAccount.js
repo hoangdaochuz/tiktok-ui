@@ -21,7 +21,7 @@ function SuggestAccount({label}) {
     return ( 
         <div className = {cx('wrapper')}>
             <p className = {cx('label')}>{label}</p>
-            {suggestAccount.length > 0 && suggestAccount.map((account)=>{
+            {suggestAccount && suggestAccount.length > 0 && suggestAccount.map((account)=>{
                 return (<AccountItem key={account.id} data={account}/>)
             })}
             <p className = {cx('more')}>See all</p>
