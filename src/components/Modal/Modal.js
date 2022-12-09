@@ -15,6 +15,7 @@ function Modal({ isOpen, children, containerID, shouldCloseOnOverlayClick=true,o
     const [closing, setClosing] = useState(false)
 
     const handleRequestClose = useCallback(()=>{
+        console.log(1);
         setClosing(true)
         containerRef.current.addEventListener('animationend',()=>{
             setClosing(false)

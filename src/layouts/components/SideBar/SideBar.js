@@ -79,7 +79,8 @@ const LOGIN_LIST = [
 ]
 
 function SideBar() {
-
+    const currentUser = false;
+    const [isOpenModal, setOpenModal] = useState(false);
     const openModal = ()=>{
         setOpenModal(true)
     }
@@ -87,9 +88,6 @@ function SideBar() {
     const closeModal = ()=>{
         setOpenModal(false)
     }
-
-    const currentUser = false;
-    const [isOpenModal, setOpenModal] = useState(false);
     return ( <aside className={cx('wrapper')}>
         <Menu>
             <MenuItem
